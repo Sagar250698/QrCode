@@ -28,13 +28,7 @@ const QrCode: React.FC = () => {
           includeMargin={true}
           style={{ margin: '0 auto' }}
         />
-        <p style={{ 
-          marginTop: '20px',
-          fontSize: '18px',
-          color: '#333'
-        }}>
-          Scan this QR code to open the PDF document
-        </p>
+       
         
         <div style={{ 
           marginTop: '15px',
@@ -43,23 +37,10 @@ const QrCode: React.FC = () => {
           borderRadius: '4px',
           display: 'inline-block'
         }}>
-          <p>PDF URL: <a 
-            href={pdfUrl} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            style={{ color: '#0066cc' }}
-          >
-            {pdfUrl}
-          </a></p>
+        
         </div>
       </div>
-      <div style={{ 
-        marginTop: '30px',
-        padding: '15px',
-        backgroundColor: '#f0f0f0',
-        borderRadius: '4px'
-      }}>
-      </div>
+     
     </div>
   );
 };
