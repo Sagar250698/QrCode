@@ -3,7 +3,7 @@ import { QRCodeSVG } from 'qrcode.react';
 
 const QrCode: React.FC = () => {
   
-  const pdfUrl = `${window.location.origin}/pdf/Testimonials.pdf`;
+  const pdfUrl = `${window.location.origin}/pdf/Advocate Praveen Mathare`;
 
   return (
     <div style={{ 
@@ -53,19 +53,12 @@ const QrCode: React.FC = () => {
           </a></p>
         </div>
       </div>
-
       <div style={{ 
         marginTop: '30px',
         padding: '15px',
         backgroundColor: '#f0f0f0',
         borderRadius: '4px'
       }}>
-        <h3>How to use:</h3>
-        <ol style={{ textAlign: 'left', maxWidth: '400px', margin: '0 auto' }}>
-          <li>Display this QR code where users can scan it</li>
-          <li>Users scan with their phone's camera or QR scanner app</li>
-          <li>The PDF will automatically open in their browser</li>
-        </ol>
       </div>
     </div>
   );
