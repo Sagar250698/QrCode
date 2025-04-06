@@ -3,7 +3,7 @@ import { QRCodeSVG } from 'qrcode.react';
 
 const QrCode: React.FC = () => {
   
-  const pdfUrl = `${window.location.origin}/pdf/Advocate Praveen Mathare`;
+  const pdfUrl = `${window.location.origin}/pdf/Advocate Praveen Mathare.pdf`;
 
   return (
     <div style={{ 
